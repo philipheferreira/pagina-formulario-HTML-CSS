@@ -1,0 +1,19 @@
+body{ 
+	background-color: #24248f;
+}
+
+.nomeFormulario{ 
+	font-family: calibri;
+	font-size: 25pt;
+	text-align: center;
+	text-decoration: underline; /* cia uma linha em baixo do texto */
+}
+
+.content{ 
+	margin: 5% auto;
+	background-color: white;
+}
+
+form{ 
+	  font-family: Calibri; 
+}
