@@ -7,13 +7,18 @@ body{
 	font-size: 25pt;
 	text-align: center;
 	text-decoration: underline; /* cia uma linha em baixo do texto */
+	color: white;
 }
 
 .content{ 
-	margin: 5% auto;
+	margin: 5% 30%;
 	background-color: white;
 }
 
 form{ 
 	  font-family: Calibri; 
+}
+
+.textoInput{ 
+	margin: 0px 10px 0 10px;
 }

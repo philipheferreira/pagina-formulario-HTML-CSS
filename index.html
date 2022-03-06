@@ -14,14 +14,14 @@
 <body>
 
 	<h2 class="nomeFormulario">Inscrição academica</h2>
-	<div class="content">
+	<div class="content" >
 		<form action="" autocomplete="on">
-			<label for="primeiroNome">Primeiro Nome:</label><br>
-			<input type="text" name="primeiroNome" maxlength="30" placeholder="30 caracters no maximo"><br>
-			<label for="ultimoNome">Ultimo Nome:</label><br>
-			<input type="text" name="ultimoNome" maxlength="30" placeholder="30 caracters no maximo"><br>
+			<label  class="textoInput" for="primeiroNome">Primeiro Nome:</label>
+			<input type="text" name="primeiroNome" maxlength="30" placeholder="30 caracters no maximo"><br><br>
+			<label class="textoInput" for="ultimoNome">Ultimo Nome:</label>
+			<input type="text" name="ultimoNome" maxlength="30" placeholder="30 caracters no maximo"><br><br>
 
-			<label>Data de nascimento:</label><br>
+			<label class="textoInput">Data de nascimento:</label>
 			<select name="nascimento">
 				<option value="-1" selected>Dia</option> <!-- o comando selected deixa pre definido a opção dentro do select -->
 				<option value="1">1</option>
@@ -137,34 +137,35 @@
 				<option value="">1974</option>
 				<option value="">1973</option>
 				<option value="">1972</option>
-			</select><br>
+			</select><br><br>
 
-			<label for="email">Endereço de Email: </label>
-			<input type="email" name="email" maxlength="100"><br>
+			<label class="textoInput" for="email">Endereço de Email: </label>
+			<input type="email" name="email" maxlength="100"><br><br>
 
-			<label for="celular">Telefone celular: </label>
-			<input type="tel" name="celular" maxlength="11"><br>
+			<label class="textoInput" for="celular">Telefone celular: </label>
+			<input type="tel" name="celular" maxlength="11"><br><br>
 
-			<label for="sexo">Sexo: </label><br>
+			<label class="textoInput" for="sexo">Sexo: </label>
 			Mulher <input type="radio" name="sexo" value="mulher">
-			Homem <input type="radio" name="sexo" value="homem"><br>
+			Homem <input type="radio" name="sexo" value="homem"><br><br>
 
-			<label for="endereco">Endereço: </label><br>
-			<textarea name="endereco" rows="10" cols="45"></textarea><br>
+			<label class="textoInput" for="endereco">Endereço: </label><br>
+			<textarea name="endereco" rows="10" cols="45"></textarea><br><br>
 
-			<label for="cidade">Cidade: </label>
-			<input type="text" name="cidade" maxlength="30"><br>
+			<label class="textoInput" for="cidade">Cidade: </label>
+			<input type="text" name="cidade" maxlength="30"><br><br>
 
-			<label for="estado">Estado: </label>
-			<input type="text" name="estadao"><br>
+			<label class="textoInput" for="estado">Estado: </label>
+			<input type="text" name="estadao"><br><br>
 
-			<label for="pais">País</label>
-			<input type="text" name="pais"><br>
+			<label class="textoInput" for="pais">País</label>
+			<input type="text" name="pais"><br><br>
 
-			<label for="pin">Codigo Pin: </label>
-			<input type="text" name="pin" maxlength="6" placeholder="maximo 6 numeros">
+			<label class="textoInput" for="pin">Codigo Pin: </label>
+			<input type="text" name="pin" maxlength="6" placeholder="maximo 6 numeros"><br><br>
 
-			
+			<input  type="submit" name="submit">
+			<input  type="reset" name="reset">
 		</form>
 	</div>
 </body>
